@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>::TGSRTC BUS PASS::</title>
+</head>
+<body>
+    <center>
+        <img src="main app.jpg" alt="main img" width="80%" height="180">
+        <fieldset style="width: 900px;">
+            <legend><h3>Application</h3></legend>
+            <form action="./submit.html"  method="get" enctype="text/plain" autocomplete="off">
+                <table cellspacing="0" cellpadding="10" width="95%">
+                    <tbody>
+                        <tr align="center">
+                        <td><label for="name">Name*</label></td>
+                        <td align="left" ><input type="text" name="name" id=" name" required></td>
+                        <td ><label for="father's/Guardian's Name">Father's/Guardian's Name*</label></td>
+                        <td  align="left"><input type="text" name="father's/Guardian's Name" id=" father's/Guardian's Name" required></td>
+                    </tr>
+                    <tr align="center">
+                        <td><label for="Date">Date of birth*</label></td>
+                        <td align="left" ><input type="Date" name="Date" id="Date" required></td>
+                        <td><label for="male">Gender*</label></td>
+                        <td  align="left" ><input type="radio" id="male" name="gender" value="male" required>
+                            <label for="male">Male</label>
+                           <input type="radio" id="female" name="gender" value="female" required>
+                            <label for="female">Female</label></td>
+                       
+                    <tr align="center">
+                        <td ><label for="Year(s)">As on age:</label></td>
+                        <td align="left"><input type="text" name="Year(s)" id="Year(s)" style="width: 20px;">
+                        <label for="Year(s)">Year(s)</label>
+                        <input type="text" name="Month(s)" id="Month(s)" style="width: 20px;">
+                        <label for="Month(s)">Month(s)</label>
+                        <input type="text" name="Month(s)" id="Month(s)" style="width: 20px;">
+                        <label for="Month(s)">Day(s)</label>
+                       </td>
+                        <td><label for="Aadhar no">Aadhar no:</label></td>
+                        <td align="left"><input type="text" id="Aadhar no" name="Aadhar no"  maxlength="12" minlength="12"></td>
+                        
+                    </tr>
+                    <tr align="center">
+                        <td><label for="Whatsapp">Whatsapp</label></td>
+                        <td  align="left"><input type="text" id="Whatsapp" name="Whatsapp" required></td>
+                        <td><label for="Email">Email</label></td>
+                        <td align="left"><input type="text" id="Email" name="name" required></td>
+                    </tr>
+                    <tr align="center">
+                        <td><label for="Photo">Photo</label></td>
+                        <td align="left"><input type="file" name="Photo" id="Photo" required></td>
+                    </tr>
+                    </tbody>
+   
+                </table>
+            </form>
+        </fieldset>
+        
+        <fieldset  style="width: 900px;">
+            <legend><h3>Residental Address Details</h3></legend>
+            <tbody>
+            <form action="./submit.html"  method="get" enctype="text/plain" autocomplete="off">
+                <table cellspacing="0" cellpadding="10" width="95%">
+                    <tr align="center">
+                        <td><label for="Applicant's Address">Applicant's Address*</label></td>
+                        <td align="left"><textarea name="Applicant's Address" id="Applicant's Address" required></textarea></td>
+                        <td><label for="District">District*</label></td>
+                        <td align="left"><select name="District" id="District" required>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Jagitial">Jagitial</option>
+
+                        </select></td>
+                    </tr>
+                    <tr align="center">
+                        <td><label for="Mandal">Mandal*</label></td>
+                        <td align="left"><select name="Mandal" id="Mandal" required>
+                        <option value="kathalapur">kathalapur</option>
+                        <option value="korutla">korutla</option>
+                        </select></td>
+                        <td><label for="village">village*</label></td>
+                        <td align="left"><select name="village" id="village" required>
+                        <option value="Thakkallapelly">Thakkallapelly</option>
+                        <option value="sirikonda">sirikonda</option>
+                        </select></td>
+                    </tr>
+                    <tr align="center">
+                        <td><label for="Pincode">Pincode*</label></td>
+                        <td align="left"><input type="text" name="Pincode" id="Pincode" required></td>
+                        
+                    </tr>
+                </table>
+            </tbody>
+        </fieldset>
+
+        <fieldset style="width: 900px;">
+            <legend><h3>Pass Type Details</h3></legend>
+            <tbody>
+                <form action="./submit.html"  method="get" enctype="text/plain" autocomplete="off">
+                    <table cellspacing="0" cellpadding="10" width="95%">
+
+                            <tr align="center">
+                                <td><label for="City">City*</label></td>
+                                <td align="left" ><select name="City" id="City">
+                                <option value="Hyderabad">Hyderabad</option>
+                                </select></td>
+                                
+                            </tr>
+                            <tr align="center">
+                                <td ><label for="Pass Type">Pass Type*</label> </td>
+                                <td align="left" ><select name="Pass Type" id="Pass Type">
+                                <option value="--select--">--select--</option>
+                                </select></td>
+                            </tr>
+                    </table>
+
+                </form>
+            </tbody>
+
+        </fieldset>
+
+         <fieldset style="width: 900px;">
+            <legend><h3>Mode of Payment and Pass Collection</h3></legend>
+            <tbody>
+                <form action="./submit.html"  method="get" enctype="text/plain" autocomplete="off">
+                    <table cellspacing="0" cellpadding="10" width="95%">
+                        <tr align="center">
+                            <td><label for="Payment Mode*">Payment Mode*</label></td>
+                            <td align="left"><select name="Payment Mode" id="Payment Mode" required>
+                                <option value="Select Payment Mode ">Select Payment Mode</option>
+                                <option value="Payment at Counter ">Payment at Counter</option>
+                                <option value="other ">other</option>     
+                            </select></td>
+                            
+                        </tr>
+                        <tr align="center">
+                            <td><label for="Pass Delivery Mode">Pass Delivery Mode*</label></td>
+                            <td align="left"><select name="Pass Delivery Mode" id="Pass Delivery Mode" required>
+                                <option value=" select Pass Delivery Mode ">Select Pass Delivery Mode</option>
+                            </select></td>
+                            
+                        </tr>
+                        <tr align="center">
+                            <td><label for="center pass">Center at which you want collect pass*</label></td>
+                             <td align="left"><select name="center pass" id="center pass" required>
+                                <option value="---select--- ">---select--- </option>
+                            </select></td>
+                        </tr>
+                    </table>
+                    </table>
+                </form>
+            </tbody>            
+        </fieldset>
+        <img src="./captach.jpg" alt="captach">
+        <br><br>
+        <input type="text" align="center"></input>
+        <br><br>
+        <input type="submit" >
+
+            
+    </center>  
+</body>
+</html>
+
